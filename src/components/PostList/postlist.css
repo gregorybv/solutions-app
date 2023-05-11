@@ -1,0 +1,13 @@
+.postlist{
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+@media (max-width: 767.98px){
+  .postlist{
+    justify-content: center;
+  }
+}

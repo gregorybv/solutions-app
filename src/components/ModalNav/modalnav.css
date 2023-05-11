@@ -1,0 +1,59 @@
+
+/* ===== MODAL ===== */
+
+.modal{
+  top: 0;
+  left: 0;
+}
+
+.modal__link{
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 100%;
+
+  display: flex; 
+  align-items: flex-end;
+  gap: 0.25rem;
+  border-bottom: 1px solid #E9E9E9;
+  padding-bottom: 1rem;
+}
+
+
+.modal__link:hover + .modal__list{
+  opacity: 1;
+}
+
+.modal__list:hover{
+  opacity: 1;
+}
+
+.modal__list{
+  font-weight: 400;
+  font-size: 0.8125rem;
+  line-height: 100%;
+  position: absolute;
+  top: 0;
+  left: 74px;
+  cursor: pointer;
+  opacity: 0;
+  background: #FFFFFF;
+  padding: 0.188rem 0.313rem;
+  border: 1px solid #E9E9E9;
+}
+
+.modal__item{
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.modal__item:not(:last-child){
+  border-bottom: 1px solid #E9E9E9;
+}
+
+.modal__item:hover{
+  color: #969696;
+
+}
